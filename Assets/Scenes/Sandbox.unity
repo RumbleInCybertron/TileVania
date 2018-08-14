@@ -187,7 +187,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 600628634}
   - component: {fileID: 600628636}
   - component: {fileID: 600628635}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1517,23 +1517,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &692394155 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1137461391992172, guid: 93c90becb43b73940b591ead21b6ad54,
-    type: 2}
-  m_PrefabInternal: {fileID: 1271363658}
---- !u!114 &692394156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 692394155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4628ecff46145894ca8ac600678d4660, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 10
 --- !u!1001 &1271363658
 Prefab:
   m_ObjectHideFlags: 0

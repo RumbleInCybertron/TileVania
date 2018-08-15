@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137461391992172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.81, y: 4.34, z: 0}
+  m_LocalPosition: {x: 2.9, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -137,7 +137,7 @@ MonoBehaviour:
   runSpeed: 10
   jumpSpeed: 28
   climbSpeed: 3
-  deathKick: {x: 250, y: 250}
+  deathKick: {x: 10, y: 50}
 --- !u!212 &212155786816416674
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -171,7 +171,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1126375009
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300010, guid: 7fdbd9d389847674b8a7c0f3114d7434, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

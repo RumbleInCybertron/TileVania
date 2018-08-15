@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
 {
-    CapsuleCollider2D myBodyCollider2D;
+    [SerializeField] AudioClip coinPickUpSFX;
 
-
+    // Destroy coin when player triggers a collision on coin.
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        AudioSource.PlayClipAtPoint(coinPickUpSFX, Camera.main.transform.position);
         Destroy(gameObject);
     }
 
